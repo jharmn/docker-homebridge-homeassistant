@@ -1,0 +1,17 @@
+{
+  "bridge": {
+        "name": "Homebridge",
+        "username": "CC:22:3D:E3:CE:30",
+        "port": 51826,
+        "pin": "031-45-154"
+  },
+  "platforms": [
+    {
+      "platform": "HomeAssistant",
+      "name": "HomeAssistant",
+      "host": "http://127.0.0.1:8123",
+      "password": "jJSI9XaDvqEk5LBs",
+      "supported_types": ["binary_sensor", "cover", "fan", "input_boolean", "light", "lock", "media_player", "scene", "sensor", "switch"]
+    }
+  ]
+}
