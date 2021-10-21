@@ -12,7 +12,7 @@ With docker-compose:
 ```
   homebridge:
     restart: always
-    image: jharmon/docker-homebridge-homeassistant
+    image: jharmn/docker-homebridge-homeassistant
     net: host
     volumes:
       - ./homebridge_config:/root # contains .homebridge + .homebridge/config.json
